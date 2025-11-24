@@ -1,4 +1,6 @@
 # 🎬 IMDb & TMDB Movies Data Analysis
+<img width="732" height="643" alt="image" src="https://github.com/user-attachments/assets/beea9e1e-cf76-492c-b746-d21124b6674a" />
+<img width="544" height="475" alt="image" src="https://github.com/user-attachments/assets/7109784c-2998-4a24-992b-a5ea62ba23ed" />
 
 ## 📌 Project Overview
 This project is an end-to-end data analysis pipeline built with **Python**. It involves cleaning, processing, and analyzing a massive dataset of movies (metadata, credits, keywords, and ratings). 
@@ -30,27 +32,5 @@ Instead of simply filling missing **Budget** and **Revenue** values with the mea
 * Extracted `Release Year` for temporal analysis.
 * Standardized `IMDb ID` formats for potential merging with other datasets.
 
-## 📊 Exploratory Data Analysis (EDA)
-The analysis uncovered several key insights visualized using Seaborn:
 
-* **Production Hubs:**    * Identified the top 5 countries producing the most content.
-* **Financial Analysis:** 
-
-[Image of Revenue Chart]
-
-    * Analyzed revenue trends over the years to spot the "Golden Era" of cinema.
-    * Highlighted production companies with the lowest revenue performance.
-* **Ratings Distribution:** 
-    * Examined the distribution of viewer votes to understand audience bias.
-
-## 🚀 How to Run
-1.  Clone the repository.
-2.  Install dependencies:
-    ```bash
-    pip install pandas numpy scikit-learn matplotlib seaborn
-    ```
-3.  Run the analysis script:
-    ```bash
-    python movie_analysis.py
-    ```
 
