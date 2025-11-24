@@ -1,6 +1,4 @@
 # 🎬 IMDb & TMDB Movies Data Analysis
-<img width="732" height="643" alt="image" src="https://github.com/user-attachments/assets/beea9e1e-cf76-492c-b746-d21124b6674a" />
-<img width="544" height="475" alt="image" src="https://github.com/user-attachments/assets/7109784c-2998-4a24-992b-a5ea62ba23ed" />
 
 ## 📌 Project Overview
 This project is an end-to-end data analysis pipeline built with **Python**. It involves cleaning, processing, and analyzing a massive dataset of movies (metadata, credits, keywords, and ratings). 
@@ -27,10 +25,11 @@ Instead of simply filling missing **Budget** and **Revenue** values with the mea
 * The model predicted missing financial data based on correlations with other features like `vote_count`, `popularity`, and `runtime`.
 * This ensured the data remained statistically valid for analysis.
 
-### 3. Feature Engineering
-* Converted timestamps to datetime objects.
-* Extracted `Release Year` for temporal analysis.
-* Standardized `IMDb ID` formats for potential merging with other datasets.
-
+## 📊 Exploratory Data Analysis (EDA)
+The analysis uncovered several key insights:
+* **Production Hubs:** Identified the top 5 countries producing the most content.
+  <img width="732" height="643" alt="image" src="https://github.com/user-attachments/assets/beea9e1e-cf76-492c-b746-d21124b6674a" />
+* **Financial Trends:** Analyzed revenue trends over the years to spot the "Golden Era" of cinema.
+<img width="544" height="475" alt="image" src="https://github.com/user-attachments/assets/7109784c-2998-4a24-992b-a5ea62ba23ed" />
 
 
